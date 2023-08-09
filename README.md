@@ -22,7 +22,7 @@
 <br/>
 
 # Description
-This repository contains gaze estimation frameworks for pre-processing, training and evaluating the following three datasets: ETH-XGaze, MPII-Gaze, and Gaze360. These frameworks serve to reproduce our results and benchmark new models.
+This repository contains frameworks for pre-processing, training and evaluating full face or multi-region (face, left and right eyes) gaze estimation models on the following three datasets: ETH-XGaze, MPII-Gaze, and Gaze360. These frameworks allow to flexibly load single face input or multi-region input and serve to reproduce our results and benchmark new models.
 
 # Links
 
