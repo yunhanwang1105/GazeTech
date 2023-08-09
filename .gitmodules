@@ -1,0 +1,3 @@
+[submodule "ETH-XGaze"]
+	path = ETH-XGaze
+	url = https://github.com/yunhanwang1105/ETH-XGaze-tech.git
