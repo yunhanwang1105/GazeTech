@@ -25,6 +25,10 @@ To run the codes for evaluation, please run:\
 
 You can find more hyperparameters and their descriptions in **config.py** file.
 
+### Trained models
+
+If you want to evaluate our trained models, you can download them through [this link](https://drive.google.com/drive/folders/18VI3Uh5h_4BDO8vB_YWeawyLDjHwBzvG?usp=sharing).
+
 ### Citation
 
 If you find this framework useful, please consider citing the paper of Gaze360 and our paper.
