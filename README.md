@@ -29,9 +29,6 @@ The readme files in the submodules of different dataset here contain step by ste
 ## Links
 To prepare the normalized data for ETH-XGaze, MPIIFaceGaze and Gaze360 datasets, please refer to our [data normalization repository](https://github.com/X-Shi/Data-Normalization-Gaze-Estimation).
 
-[History of data normalization for gaze estimation](https://github.com/xucong-zhang/data-preprocessing-gaze)
-
-
 ## Citation
 
 ## License
