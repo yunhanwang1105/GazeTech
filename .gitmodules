@@ -1,6 +1,3 @@
 [submodule "ETH-XGaze"]
 	path = ETH-XGaze
 	url = https://github.com/yunhanwang1105/ETH-XGaze-tech.git
-[submodule "DataNormalization_GazeEstimation"]
-	path = DataNormalization_GazeEstimation
-	url = https://github.com/yunhanwang1105/DataNormalization_GazeEstimation.git
