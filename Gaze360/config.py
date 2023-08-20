@@ -15,7 +15,7 @@ def add_argument_group(name):
 
 # data params
 data_arg = add_argument_group('Data Params')
-data_arg.add_argument('--data_dir', type=str, default='/tudelft.net/staff-umbrella/NightId/Gaze360/normalized_h5_224',
+data_arg.add_argument('--data_dir', type=str, default='/data/Gaze360/normalized_h5_224',
                       help='Directory of the data')
 data_arg.add_argument('--batch_size', type=int, default=100,
                       help='# of images in each batch of data')
