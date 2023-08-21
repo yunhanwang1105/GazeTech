@@ -34,8 +34,15 @@ To evaluate a model's performance, first specify the model path at *--pre_traine
 ## 2. Obtain gaze error
 You are supposed to see a txt file called **within_eva_results.txt** after finish testing. Put this file in a folder and zip it, the upload it to the [Codalab page](https://codalab.lisn.upsaclay.fr/competitions/7423) for testing results on ETH-XGaze. 
 
+<br/>
+
 # Benchmark your own model
 First give your model a name, then sepcify whether your model needs a single face image and multi-region images in *get_load_mode* in **main.py**. Initialize your model at L60-77 in **trainer.py**. The forward pass is performed from L160 and L230 in **trainer.py**. 
+
+<br/>
+
+# Pre-trained models
+Please find the pre-trained models at this [link](https://drive.google.com/drive/folders/15XvsRPorAYqyMyBxVmxeog9bZB64OKhy?usp=sharing).
 
 <br/>
 
