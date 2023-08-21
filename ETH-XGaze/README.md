@@ -48,12 +48,12 @@ Please find the pre-trained models at this [link](https://drive.google.com/drive
 
 # Miscellaneous
 
-If you would like to draw a gaze arrow, please refer to the demo of the [ETH-XGaze official implementation](https://github.com/xucong-zhang/ETH-XGaze). 
+If you would like to draw a gaze arrow, please refer to the [demo.py](https://github.com/xucong-zhang/ETH-XGaze/blob/master/demo.py) of the ETH-XGaze official implementation. 
 
 <br/>
 
 # Citation
-If you find this framework useful, please consider citing our paper and ETH-XGaze. 
+If you use results or models from our work, please consider citing our paper: 
 
     @misc{wang2023investigation,
           title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
@@ -63,8 +63,8 @@ If you find this framework useful, please consider citing our paper and ETH-XGaz
           archivePrefix={arXiv},
           primaryClass={cs.CV}
     }
-    
 <br/>
+If you use the ETH-XGaze dataset, please cite the dataset paper:
 
     @inproceedings{Zhang2020ETHXGaze,
       author    = {Xucong Zhang and Seonwook Park and Thabo Beeler and Derek Bradley and Siyu Tang and Otmar Hilliges},
