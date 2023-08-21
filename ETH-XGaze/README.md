@@ -48,7 +48,16 @@ If you would like to draw a gaze arrow, please refer to the demo of the [ETH-XGa
 # Citation
 If you find this framework useful, please consider citing our paper and ETH-XGaze. 
 
-<span style="font-size:larger;">TODO, OUR CITATION</span>
+    @misc{wang2023investigation,
+          title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
+          author={Yunhan Wang and Xiangwei Shi and Shalini De Mello and Hyung Jin Chang and Xucong Zhang},
+          year={2023},
+          eprint={2308.09593},
+          archivePrefix={arXiv},
+          primaryClass={cs.CV}
+    }
+    
+<br/>
 
     @inproceedings{Zhang2020ETHXGaze,
       author    = {Xucong Zhang and Seonwook Park and Thabo Beeler and Derek Bradley and Siyu Tang and Otmar Hilliges},
