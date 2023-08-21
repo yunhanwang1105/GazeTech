@@ -27,7 +27,7 @@ You can find more hyperparameters and their descriptions in **config.py** file.
 
 ### Trained models
 
-If you want to evaluate our trained models, you can download them through [this link]([https://drive.google.com/drive/folders/18VI3Uh5h_4BDO8vB_YWeawyLDjHwBzvG?usp=sharing](https://drive.google.com/drive/folders/1qvioqe1LSq9TE5L4EpSaSYdyWSJCEHyQ?usp=sharing)).
+If you want to evaluate our trained models, you can download them through [this link](https://drive.google.com/drive/folders/1qvioqe1LSq9TE5L4EpSaSYdyWSJCEHyQ?usp=sharing).
 
 ### Citation
 
