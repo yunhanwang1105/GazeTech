@@ -41,5 +41,13 @@ If you find this framework useful, please consider citing the paper of Gaze360 a
     year = {2019}
 }
 ```
-
-TODO, OUR CITATION
+```
+@misc{wang2023investigation,
+      title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
+      author={Yunhan Wang and Xiangwei Shi and Shalini De Mello and Hyung Jin Chang and Xucong Zhang},
+      year={2023},
+      eprint={2308.09593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
