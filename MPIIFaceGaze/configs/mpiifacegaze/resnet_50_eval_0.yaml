@@ -1,7 +1,7 @@
 mode: MPIIFaceGaze
 device: cuda
 dataset:
-  dataset_dir: /tudelft.net/staff-umbrella/NightId/mpiifacegaze/MPIIFaceGaze_multiregion.h5
+  dataset_dir: Your_Path_to/mpiifacegaze/MPIIFaceGaze_multiregion.h5
 transform:
   mpiifacegaze_face_size: 224
   mpiifacegaze_gray: False
