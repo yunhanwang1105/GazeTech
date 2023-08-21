@@ -16,7 +16,7 @@ For the single face training, we use the provided normalized data from [here](ht
 
 #### **Notice**
 **The coordinate system of the gaze labels of the provided normalized data is different from the one from our data normalization repository. The coordinate system in our data normalization repository is aligned with the one in ETH-XGaze dataset.
-The difference between two coordinate systems is that the X, Y, and Z directions are opposite from the corresponding ones.**
+The difference between two coordinate systems is that the pitch and yaw directions are opposite from the corresponding ones.**
 
 ### Training and Evaluation
 
@@ -28,9 +28,6 @@ To run the codes for evaluation, please run:\
 `python evaluate.py --config configs/mpiifacegaze/resnet_50_eval_x.yaml`\
 Please change the 'x' above. You may change the path to your saved models.
 
-### Trained models
-
-If you want to evaluate our trained models, you can download them through [this link]().
 
 ### Citation
 
