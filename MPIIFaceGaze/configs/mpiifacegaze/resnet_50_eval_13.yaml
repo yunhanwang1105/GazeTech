@@ -1,0 +1,26 @@
+mode: MPIIFaceGaze
+device: cuda
+dataset:
+  dataset_dir: /tudelft.net/staff-umbrella/NightId/mpiifacegaze/MPIIFaceGaze.h5
+transform:
+  mpiifacegaze_face_size: 224
+  mpiifacegaze_gray: False
+model:
+  name: multi_region_res50
+  in_stride: 2
+  # backbone:
+  #   name: resnet_simple
+  #   pretrained: resnet18
+  #   resnet_block: basic
+  #   resnet_layers: [2, 2, 2]
+test:
+  test_id: 13
+  checkpoint: experiments/mpiifacegaze/multi_region_res50/13/checkpoint_0025.pth
+  output_dir: experiments/mpiifacegaze/multi_region_res50/13/eval
+  batch_size: 256
+  dataloader:
+    num_workers: 2
+    pin_memory: False
+cudnn:
+  benchmark: True
+  deterministic: False

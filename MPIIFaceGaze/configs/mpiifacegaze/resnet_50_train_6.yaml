@@ -1,0 +1,49 @@
+mode: MPIIFaceGaze
+device: cuda
+dataset:
+  dataset_dir: /tudelft.net/staff-umbrella/NightId/mpiifacegaze/MPIIFaceGaze.h5
+transform:
+  mpiifacegaze_face_size: 224
+  mpiifacegaze_gray: False
+model:
+  name: multi_region_res50
+  in_stride: 2
+  saved_model: 
+  start_epoch: 0
+  # backbone:
+  #   name: resnet_simple
+  #   pretrained: resnet18
+  #   resnet_block: basic
+  #   resnet_layers: [2, 2, 2]
+train:
+  batch_size: 16
+  optimizer: adam
+  base_lr: 0.0001
+  momentum: 0.5
+  nesterov: True
+  weight_decay: 0.0001
+  no_weight_decay_on_bn: False
+  loss: L1
+  seed: 0
+  test_id: 6
+  val_ratio: 0.1
+  output_dir: experiments/mpiifacegaze/multi_region_res50/
+  log_period: 100
+  checkpoint_period: 5
+  use_tensorboard: True
+  train_dataloader:
+    num_workers: 2
+    drop_last: True
+    pin_memory: False
+  val_dataloader:
+    num_workers: 2
+    pin_memory: False
+scheduler:
+  epochs: 30
+  type: multistep
+  milestones: [9, 25]
+  lr_decay: 0.1
+  lr_min_factor: 0.00001
+cudnn:
+  benchmark: True
+  deterministic: False
