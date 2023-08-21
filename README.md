@@ -6,9 +6,9 @@
 <div>
     Yunhan Wang</a><sup>1</sup>&emsp;
     Xiangwei Shi</a><sup>1</sup>&emsp;
-    Shalini De  Mello</a><sup>2</sup>&emsp;
-    Hyung Jin Chang</a><sup>3</sup>&emsp;
-    Xucong Zhang</a><sup>1</sup>&emsp;
+    <a href='https://research.nvidia.com/person/shalini-de-mello' target='_blank'>Shalini De  Mello</a><sup>2</sup>&emsp;
+    <a href='https://hyungjinchang.wordpress.com/' target='_blank'>Hyung Jin Chang</a><sup>3</sup>&emsp;
+    <a href='https://www.ccmitss.com/zhang' target='_blank'>Xucong Zhang</a><sup>1</sup>&emsp;
 </div>
 
 <div>
@@ -27,8 +27,17 @@ This repository contains frameworks for pre-processing, training, and evaluating
 The readme files in the submodules of different datasets here contain step-by-step tutorials to help you set up, train and evaluate our existing and your new models. 
 
 ## Links
+[arXiv page](https://arxiv.org/abs/2308.09593)
 To prepare the normalized data for ETH-XGaze, MPIIFaceGaze and Gaze360 datasets, please refer to our [data normalization repository](https://github.com/X-Shi/Data-Normalization-Gaze-Estimation).
 
 ## Citation
-
-## License
+```
+@misc{wang2023investigation,
+      title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
+      author={Yunhan Wang and Xiangwei Shi and Shalini De Mello and Hyung Jin Chang and Xucong Zhang},
+      year={2023},
+      eprint={2308.09593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
