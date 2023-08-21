@@ -42,7 +42,7 @@ First give your model a name, then sepcify whether your model needs a single fac
 <br/>
 
 # Pre-trained models
-Please find the pre-trained models at this [link](https://drive.google.com/drive/folders/15XvsRPorAYqyMyBxVmxeog9bZB64OKhy?usp=sharing).
+Please find the pre-trained models at this [link](https://drive.google.com/drive/folders/1v8TGgP2ahDQHZyQAHf_k0V7uvm6aXY06?usp=sharing).
 
 <br/>
 
