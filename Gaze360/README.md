@@ -31,7 +31,7 @@ If you want to evaluate our trained models, you can download them through [this 
 
 ### Citation
 
-If you find this framework useful, please consider citing the paper of Gaze360 and our paper.
+If you use results or models from our paper, please cite our paper:
 ```
 @inproceedings{gaze360_2019,
     author = {Petr Kellnhofer and Adria Recasens and Simon Stent and Wojciech Matusik and Antonio Torralba},
@@ -41,6 +41,7 @@ If you find this framework useful, please consider citing the paper of Gaze360 a
     year = {2019}
 }
 ```
+If you use the Gaze360 dataset, please cite the dataset paper:
 ```
 @misc{wang2023investigation,
       title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
