@@ -14,7 +14,7 @@ To install the required packages, run:\
 Please refer to our [data normalization repository](https://github.com/X-Shi/Data-Normalization-Gaze-Estimation) for pre-processing the multi-region MPIIFaceGaze dataset. If you would like to run the codes on MPIIFaceGaze dataset, please download through the link above. We do not provide the access to the dataset.\
 For the single face training, we use the provided normalized data from [here](https://www.mpi-inf.mpg.de/departments/computer-vision-and-machine-learning/research/gaze-based-human-computer-interaction/its-written-all-over-your-face-full-face-appearance-based-gaze-estimation).
 
-#### **Notice**
+### Attention
 **The coordinate system of the gaze labels of the provided normalized data is different from the one from our data normalization repository. The coordinate system in our data normalization repository is aligned with the one in ETH-XGaze dataset.
 The difference between two coordinate systems is that the pitch and yaw directions are opposite from the corresponding ones.**
 
