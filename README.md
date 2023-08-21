@@ -27,9 +27,8 @@ This repository contains frameworks for pre-processing, training, and evaluating
 The readme files in the submodules of different datasets here contain step-by-step tutorials to help you set up, train and evaluate our existing and your new models. 
 
 ## Links
-[Paper arXiv page](https://arxiv.org/abs/2308.09593)
-<br/>
-To prepare the normalized data for ETH-XGaze, MPIIFaceGaze and Gaze360 datasets, please refer to our [data normalization repository](https://github.com/X-Shi/Data-Normalization-Gaze-Estimation).
+- [Paper arXiv page](https://arxiv.org/abs/2308.09593)
+- To prepare the normalized data for ETH-XGaze, MPIIFaceGaze and Gaze360 datasets, please refer to our [data normalization repository](https://github.com/X-Shi/Data-Normalization-Gaze-Estimation).
 
 ## Citation
 ```
