@@ -31,7 +31,18 @@ Please change the 'x' above. You may change the path to your saved models.
 
 ### Citation
 
-If you find this framework useful, please consider citing the paper of MPIIFaceGaze and our paper.
+If you use the results or models in our paper, please cite our paper:
+```
+@misc{wang2023investigation,
+      title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
+      author={Yunhan Wang and Xiangwei Shi and Shalini De Mello and Hyung Jin Chang and Xucong Zhang},
+      year={2023},
+      eprint={2308.09593},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
+If you use the MPIIFaceGaze dataset, please cite the dataset paper:
 ```
     @inproceedings{zhang2017s,
     title={It’s written all over your face: Full-face appearance-based gaze estimation},
@@ -43,13 +54,5 @@ If you find this framework useful, please consider citing the paper of MPIIFaceG
     }
 
 ```
-```
-@misc{wang2023investigation,
-      title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
-      author={Yunhan Wang and Xiangwei Shi and Shalini De Mello and Hyung Jin Chang and Xucong Zhang},
-      year={2023},
-      eprint={2308.09593},
-      archivePrefix={arXiv},
-      primaryClass={cs.CV}
-}
-```
+
+
