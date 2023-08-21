@@ -33,16 +33,6 @@ If you want to evaluate our trained models, you can download them through [this 
 
 If you use results or models from our paper, please cite our paper:
 ```
-@inproceedings{gaze360_2019,
-    author = {Petr Kellnhofer and Adria Recasens and Simon Stent and Wojciech Matusik and Antonio Torralba},
-    title = {Gaze360: Physically Unconstrained Gaze Estimation in the Wild},
-    booktitle = {IEEE International Conference on Computer Vision (ICCV)},
-    month = {October},
-    year = {2019}
-}
-```
-If you use the Gaze360 dataset, please cite the dataset paper:
-```
 @misc{wang2023investigation,
       title={Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation}, 
       author={Yunhan Wang and Xiangwei Shi and Shalini De Mello and Hyung Jin Chang and Xucong Zhang},
@@ -52,3 +42,15 @@ If you use the Gaze360 dataset, please cite the dataset paper:
       primaryClass={cs.CV}
 }
 ```
+If you use the Gaze360 dataset, please cite the dataset paper:
+```
+@inproceedings{gaze360_2019,
+    author = {Petr Kellnhofer and Adria Recasens and Simon Stent and Wojciech Matusik and Antonio Torralba},
+    title = {Gaze360: Physically Unconstrained Gaze Estimation in the Wild},
+    booktitle = {IEEE International Conference on Computer Vision (ICCV)},
+    month = {October},
+    year = {2019}
+}
+```
+
+
