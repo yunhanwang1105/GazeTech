@@ -4,7 +4,7 @@
 <h2>Investigation of Architectures and Receptive Fields for Appearance-based Gaze Estimation</h2>
 
 <div>
-    <a href='https://yunhanwang1105.github.io/' target='_blank'>Yunhan Wang</a><sup>2</sup>&emsp;
+    <a href='https://yunhanwang1105.github.io/' target='_blank'>Yunhan Wang</a><sup>1</sup>&emsp;
     Xiangwei Shi</a><sup>1</sup>&emsp;
     <a href='https://research.nvidia.com/person/shalini-de-mello' target='_blank'>Shalini De  Mello</a><sup>2</sup>&emsp;
     <a href='https://hyungjinchang.wordpress.com/' target='_blank'>Hyung Jin Chang</a><sup>3</sup>&emsp;
