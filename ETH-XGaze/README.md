@@ -29,7 +29,7 @@ You can find more hyperparameters and their descriptions in **config.py**.
 # Evaluation
 
 ## 1. Predict
-To evaluate a model's performance, first specify the model path at *--pre_trained_model_path*, please make sure the other training and model hyperparameters are consistent with the hyperparameters your model was trained with. Then run `python main.py --is_train False`. 
+To evaluate a model's performance, first specify the model path at *--pre_trained_model_path*, please make sure the other training and model hyperparameters are consistent with the hyperparameters your model was trained with. Especially, the default stride in this repository is set to 2. If you use the pre-trained "multi_share_eye_res50_stride1_epoch30" model, you should change the "in_stride" parameter in the "gaze_network" of "multi_region_res50_share_eyenet.py" file to 1. Then run `python main.py --is_train False`. 
 
 ## 2. Obtain gaze error
 You are supposed to see a txt file called **within_eva_results.txt** after finish testing. Put this file in a folder and zip it, the upload it to the [Codalab page](https://codalab.lisn.upsaclay.fr/competitions/7423) for testing results on ETH-XGaze. 
