@@ -5,7 +5,7 @@
 
 <div>
     <a href='https://yunhanwang1105.github.io/' target='_blank'>Yunhan Wang</a><sup>1</sup>&emsp;
-    Xiangwei Shi</a><sup>1</sup>&emsp;
+    <a href='https://x-shi.github.io/' target='_blank'>Xiangwei Shi</a><sup>1</sup>&emsp;
     <a href='https://research.nvidia.com/person/shalini-de-mello' target='_blank'>Shalini De  Mello</a><sup>2</sup>&emsp;
     <a href='https://hyungjinchang.wordpress.com/' target='_blank'>Hyung Jin Chang</a><sup>3</sup>&emsp;
     <a href='https://www.ccmitss.com/zhang' target='_blank'>Xucong Zhang</a><sup>1</sup>&emsp;
